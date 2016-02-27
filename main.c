@@ -9,7 +9,7 @@ int main() {
 	int massMonth[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 	int massLeapMonth[] = {31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};	
 	time_t t;
-	struct tm *current = NULL;
+        struct tm *current = NULL;
 	long seconds;
 	time(&t);
 	int i = 0;
@@ -28,9 +28,7 @@ int main() {
 	int allDays = 0;
 	printf("Birthday in format dd.mm.yyyy hh:mm\n");
 	scanf("%d.%d.%d %d:%d", &day, &month, &year, &hour, &minute);
-	// long seconds = ((((((c_year - year) ) * leap + c_day - day) * 24 + c_hour - hour) * 60 + c_minute - minute) * 60);
-	i = year;
-	
+	i = year;	
 	while(i <= c_year){
 		if(i == c_year){
 			countMon = c_month;
