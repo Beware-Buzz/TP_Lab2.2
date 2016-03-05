@@ -5,6 +5,7 @@
 bool isLeapYear(int year);
 void dateInSecond();
 
+//А теперь и тут комент))0
 int main() {
 	int massMonth[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 	int massLeapMonth[] = {31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};	
