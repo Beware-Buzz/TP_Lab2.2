@@ -58,3 +58,4 @@ bool isLeapYear(int year){
 		return true; 
 	} else return false;
 }
+//тут тип комент ))0
