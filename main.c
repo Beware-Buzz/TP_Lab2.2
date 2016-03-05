@@ -27,6 +27,7 @@ int main() {
 		hour = 0,
 		minute = 0;
 	int allDays = 0;
+	printf("HI\n")
 	printf("Birthday in format dd.mm.yyyy hh:mm\n");
 	scanf("%d.%d.%d %d:%d", &day, &month, &year, &hour, &minute);
 	i = year;	
